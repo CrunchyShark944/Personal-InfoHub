@@ -2,6 +2,10 @@
 
 A personal dashboard
 
+## Contributor
+
+Zhuohan Li
+
 ## Proposal
 
 The goal of this project is to provide a usable tool set that makes your life a little bit easier (hopefully), rather than to achieve a cliché imitation as many other school projects I did in my previous academic career.
