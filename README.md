@@ -27,3 +27,15 @@ A user is able to add a tracking number to its waitlist to check item location a
 ...
 
 Low Priority: the service is able to safely deployed on the public internet and free from basic attacks.
+
+## Endpoints draft
+| Endpoints           | Description                  | Rest                 |
+|---------------------|------------------------------|----------------------|
+| /                   | user login page              | GET                  |
+| /signup             | user signup page             | GET POST             |
+| /dashboard          | user homepage                | GET POST PUT DELETE  |
+| /dashboard/weather  | dashboard weather component  | GET POST PUT DELETE  |
+| /dashboard/stock    | dashboard stock component    | GET POST PUT DELETE  |
+| /dashboard/tracking | dashboard tracking component | GET POST PUT DELETE  |
+| /settings           | user settings                | GET POST PUT DELETE  |
+| /logout             | user logout                  | GET                  |
