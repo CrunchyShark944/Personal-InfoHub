@@ -1,5 +1,5 @@
 LINTER = flake8
-SRC_DIR = src
+SRC_DIR = app
 REQ_DIR = requirements
 
 FORCE:
@@ -19,4 +19,4 @@ lint: FORCE
 	$(LINTER) $(SRC_DIR)/*.py
 
 dev_env: FORCE
-	pip install -r $(REQ_DIR)/requirements-dev.txt
+	pip3 install -r $(REQ_DIR)/requirements-dev.txt

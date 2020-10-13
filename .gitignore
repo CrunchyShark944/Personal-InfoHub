@@ -140,3 +140,7 @@ yarn.lock
 yarn-error.log
 *.psd
 env/
+
+# VSCode linter
+
+.vscode/
